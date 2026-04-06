@@ -3,3 +3,24 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.TopDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.TopDiv h1 {
+  font-size: 100px;
+  margin: 0px;
+}
+
+.TopDiv p {
+  font-size: 45px;
+  margin: 0px;
+}
