@@ -2,6 +2,17 @@ body {
   background-color: #2c3044;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  border: none;
+  background-color: #6773a0;
+  height: 2px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
 }
 
 .TopDiv {
@@ -33,4 +44,25 @@ body {
   list-style: none;
   gap: 20px;
   padding: 10px;
+}
+
+.navArea a {
+  padding: 10px;
+  border: 1px solid rgb(152, 149, 149);
+  border-radius: 20px;
+}
+
+.navArea li {
+  display: flex;
+}
+
+.navText {
+  white-space: nowrap;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
