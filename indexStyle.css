@@ -66,3 +66,34 @@ hr {
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
 }
+
+.mainBody {
+  display: flex;
+  flex: row;
+}
+
+aside {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+  background-color: #292d3e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+main h1 {
+  align-self: center;
+}
+
+.textBody {
+  margin: 0;
+  text-align: justify;
+  font-size: 20px;
+}
