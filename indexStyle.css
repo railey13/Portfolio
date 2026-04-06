@@ -72,6 +72,18 @@ hr {
   flex: row;
 }
 
+.mainBody h2{
+  font-size: 40px;
+}
+
+.mainBody a {
+  color: white;
+}
+
+.mainBody a:visited {
+  color: white;
+}
+
 aside {
   width: 100px;
   flex-shrink: 0;
@@ -88,12 +100,18 @@ main {
   color: white;
 }
 
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
 main h1 {
   align-self: center;
+  font-size: 40px;
 }
 
 .textBody {
   margin: 0;
   text-align: justify;
-  font-size: 20px;
+  font-size: 30px;
 }
